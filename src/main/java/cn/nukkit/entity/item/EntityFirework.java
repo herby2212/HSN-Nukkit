@@ -25,8 +25,8 @@ public class EntityFirework extends Entity {
 
     public static final int NETWORK_ID = 72;
 
-    private int lifetime;
-    private Item firework;
+    public int lifetime;
+    public Item firework;
 
     public EntityFirework(FullChunk chunk, CompoundTag nbt) {
         super(chunk, nbt);
